@@ -9,7 +9,7 @@ import lombok.Data;
 
 @Data
 @Configuration
-@ConfigurationProperties(prefix="app-config-data")
+@ConfigurationProperties(prefix="twitter-to-kafka-service")
 public class TwitterToKafkaServiceConfigData {
 
 	private List<String> twitterKeywords;
