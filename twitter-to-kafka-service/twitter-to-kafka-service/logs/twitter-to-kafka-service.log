@@ -1,0 +1,19 @@
+2021-09-12 20:44:15 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 14.0.1 on DESKTOP-B1S49NR with PID 10728 (C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service\target\classes started by gl_sa in C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service)
+2021-09-12 20:44:15 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-12 20:44:15 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.024 seconds (JVM running for 1.503)
+2021-09-12 20:44:15 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts.....
+2021-09-12 20:44:15 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-12 20:44:15 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:31)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.toArray(Object[])" because the return value of "com.microservices.demo.config.TwitterToKafkaServiceConfigData.getTwitterKeywords()" is null
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:37)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 5 common frames omitted

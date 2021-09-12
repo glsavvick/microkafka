@@ -1,0 +1,61 @@
+2021-09-07 00:00:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 14.0.1 on DESKTOP-B1S49NR with PID 11316 (C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service\target\classes started by gl_sa in C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service)
+2021-09-07 00:00:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-07 00:00:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.869 seconds (JVM running for 1.284)
+2021-09-07 00:00:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts.....
+2021-09-07 00:00:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2021-09-07 00:00:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - -Hello User
+2021-09-07 00:00:06 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2021-09-07 00:00:06 [pool-1-thread-1] ERROR c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Error creating twitter status!
+twitter4j.TwitterException: Expected literal value at character 149 of {"created_at":"Tue Sep 07 00:00:06 TRT 2021","id":"1063890344825012724","text":"ultricies lectus massa Java elit dolor","user":"4085183354553449055",}
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:57)
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.lambda$0(MockKafkaStreamRunner.java:67)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: twitter4j.JSONException: Expected literal value at character 149 of {"created_at":"Tue Sep 07 00:00:06 TRT 2021","id":"1063890344825012724","text":"ultricies lectus massa Java elit dolor","user":"4085183354553449055",}
+	at twitter4j.JSONTokener.syntaxError(JSONTokener.java:486)
+	at twitter4j.JSONTokener.readLiteral(JSONTokener.java:317)
+	at twitter4j.JSONTokener.nextValue(JSONTokener.java:141)
+	at twitter4j.JSONTokener.readObject(JSONTokener.java:395)
+	at twitter4j.JSONTokener.nextValue(JSONTokener.java:130)
+	at twitter4j.JSONObject.<init>(JSONObject.java:167)
+	at twitter4j.JSONObject.<init>(JSONObject.java:184)
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
+	... 6 common frames omitted
+2021-09-07 00:02:44 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 14.0.1 on DESKTOP-B1S49NR with PID 19552 (C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service\target\classes started by gl_sa in C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service)
+2021-09-07 00:02:44 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-07 00:02:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.836 seconds (JVM running for 1.258)
+2021-09-07 00:02:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts.....
+2021-09-07 00:02:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2021-09-07 00:02:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - -Hello User
+2021-09-07 00:02:45 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Kafka, Elasticsearch]
+2021-09-07 00:02:45 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text porttitor conque Fusce libero libero Kafka dolor Lorem purus ultricies
+2021-09-07 00:02:55 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Maecenas malesuada Lorem Kafka libero purus
+2021-09-07 00:03:05 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Fusce posuere posuere lectus Microservices sed pulvinar
+2021-09-07 00:03:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 14.0.1 on DESKTOP-B1S49NR with PID 21752 (C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service\target\classes started by gl_sa in C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service)
+2021-09-07 00:03:35 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-07 00:03:36 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.938 seconds (JVM running for 1.371)
+2021-09-07 00:03:36 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts.....
+2021-09-07 00:03:36 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2021-09-07 00:03:36 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - -Hello User
+2021-09-07 00:03:36 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-09-07 00:03:36 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2021-09-07 00:03:40 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-09-07 00:03:40 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-09-07 00:03:40 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @raskolnikovgibi: ''hiç evlenmemiş ve çocuğu olmayan franz kafka, Berlin'de bir parkta yürürken, çok sevdiği oyuncak bebeğini kaybettiği…
+2021-09-07 00:03:43 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @cdchoclostore: You can Find this Mug Here:
+https://t.co/mz5zDl7Naw
+
+#coding #gaming #coffelover #programming #programmer #IT #python #j…
+2021-09-07 00:03:43 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Khulood_Almani: 🤖What are the latest trends in #ArtificialIntelligence (#AI) & #MachineLearning (#ML)❓
+
+https://t.co/v7xZnt7NjU
+
+#Tech…
+2021-09-07 00:03:47 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @cdchoclostore: You can Find this Mug Here:
+https://t.co/mz5zDl7Naw
+
+#coding #gaming #coffelover #programming #programmer #IT #python #j…
+2021-09-07 00:03:51 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @colinbrazierGBN: The more I read this NHS blog, the more it enrages me. How can any white NHS employee read it without feeling in a Kaf…

@@ -1,0 +1,59 @@
+2021-09-05 21:26:03 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests], using SpringBootContextLoader
+2021-09-05 21:26:03 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-09-05 21:26:03 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests]: TwitterToKafkaServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-09-05 21:26:03 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication for test class com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests
+2021-09-05 21:26:04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-09-05 21:26:04 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5669c5fb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@373ebf74, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5f9678e1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c4ed84, org.springframework.test.context.support.DirtiesContextTestExecutionListener@189aa67a, org.springframework.test.context.event.EventPublishingTestExecutionListener@5a9d6f02, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@362045c0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@112f364d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ccbeb64, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6d9f7a80, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59252cb6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@31d0e481]
+2021-09-05 21:26:04 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Starting TwitterToKafkaServiceApplicationTests using Java 16.0.1 on DESKTOP-B1S49NR with PID 15684 (started by gl_sa in C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service)
+2021-09-05 21:26:04 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - No active profile set, falling back to default profiles: default
+2021-09-05 21:26:04 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Started TwitterToKafkaServiceApplicationTests in 0.855 seconds (JVM running for 1.865)
+2021-09-05 21:26:04 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts.....
+2021-09-05 21:26:04 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [-Java -Microservices -Spring -Kafka -Elasticsearch]
+2021-09-05 21:27:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 14.0.1 on DESKTOP-B1S49NR with PID 14740 (C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service\target\classes started by gl_sa in C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service)
+2021-09-05 21:27:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-05 21:27:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.884 seconds (JVM running for 1.308)
+2021-09-05 21:27:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts.....
+2021-09-05 21:27:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [-Java -Microservices -Spring -Kafka -Elasticsearch]
+2021-09-05 21:30:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 14.0.1 on DESKTOP-B1S49NR with PID 16388 (C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service\target\classes started by gl_sa in C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service)
+2021-09-05 21:30:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-05 21:30:33 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.813 seconds (JVM running for 1.229)
+2021-09-05 21:30:33 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-05 21:30:33 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.Error: Unresolved compilation problems: 
+	The method getTwitterKeywords() is undefined for the type TwitterToKafkaServiceConfigData
+	Log cannot be resolved
+	The method getWelcomeMessage() is undefined for the type TwitterToKafkaServiceConfigData
+
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:31)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:25)
+2021-09-05 21:31:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 14.0.1 on DESKTOP-B1S49NR with PID 14016 (C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service\target\classes started by gl_sa in C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service)
+2021-09-05 21:31:00 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-05 21:31:01 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.807 seconds (JVM running for 1.222)
+2021-09-05 21:31:01 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-05 21:31:01 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.Error: Unresolved compilation problems: 
+	The method getTwitterKeywords() is undefined for the type TwitterToKafkaServiceConfigData
+	The method getWelcomeMessage() is undefined for the type TwitterToKafkaServiceConfigData
+
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.java:31)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:25)
+2021-09-05 21:38:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 14.0.1 on DESKTOP-B1S49NR with PID 18604 (C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service\target\classes started by gl_sa in C:\Users\gl_sa\Desktop\microservices-demo\twitter-to-kafka-service)
+2021-09-05 21:38:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-09-05 21:38:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.894 seconds (JVM running for 1.376)
+2021-09-05 21:38:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts.....
+2021-09-05 21:38:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [-Java -Microservices -Spring -Kafka -Elasticsearch]
+2021-09-05 21:38:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - -Hello User
