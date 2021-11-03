@@ -32,3 +32,10 @@ build/
 ### VS Code ###
 .vscode/
 twitter-to-kafka-service/src/main/resources/twitter4j.properties
+config-server/config-server/logs/config-server.log
+config-server/config-server/logs/archived/config-server-log.2021-11-01.0.log
+config-server/twitter-to-kafka-service/logs/twitter-to-kafka-service.log
+docker-compose/docker-logs/twitter-to-kafka-service.log
+twitter-to-kafka-service/twitter-to-kafka-service/logs/twitter-to-kafka-service.log
+twitter-to-kafka-service/twitter-to-kafka-service/logs/archived/twitter-to-kafka-service-log.2021-09-14.0.log
+twitter-to-kafka-service/twitter-to-kafka-service/logs/archived/twitter-to-kafka-service-log.2021-11-01.0.log
